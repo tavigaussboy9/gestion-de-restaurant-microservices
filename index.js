@@ -12,13 +12,13 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans le service de gestion de restaurant!');
+  res.send('Welcome to the restaurant management service!');
 });
 
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     app.listen(PORT, () => {
-      console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
+      console.log(`Server is running on port ${PORT}`);
     });
   })
   .catch(err => console.error(err));
