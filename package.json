@@ -1,7 +1,7 @@
 {
   "name": "gestion-de-restaurant-microservices",
   "version": "1.0.0",
-  "description": "Un projet de gestion de restaurant utilisant une architecture microservices pour optimiser la gestion des commandes et des réservations.",
+  "description": "A microservices architecture project for managing restaurant orders and reservations efficiently.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
